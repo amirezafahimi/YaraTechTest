@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+            <item
+                android:id="@+id/nav_profile"
+                android:title="پروفایل" />
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:title="درباره ما" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:title="تماس با ما" />
+</menu>
