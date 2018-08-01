@@ -30,12 +30,14 @@ public class MainActivity extends AppCompatActivity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_category:
-                    CategoryFragment categoryFragment = new CategoryFragment();
+                    /*CategoryFragment categoryFragment = new CategoryFragment();
                     FragmentManager fm = getSupportFragmentManager();
                     FragmentTransaction transaction = fm.beginTransaction();
                     transaction.replace(R.id.fragmntContainer, categoryFragment);
                     transaction.addToBackStack(null);
-                    transaction.commit();
+                    transaction.commit();*/
+                    Intent intent = new Intent(MainActivity.this,FormActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.navigation_register:
                     RegisterFragment registerFragment = new RegisterFragment();
