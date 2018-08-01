@@ -25,7 +25,9 @@ public class FormActivity extends AppCompatActivity implements NameFragment.name
         transaction.replace(R.id.name, nameFragment);
         transaction.replace(R.id.family, familyFragment);
         transaction.replace(R.id.submit, submitFragment);
+/*
         transaction.addToBackStack(null);
+*/
         transaction.commit();
     }
 
