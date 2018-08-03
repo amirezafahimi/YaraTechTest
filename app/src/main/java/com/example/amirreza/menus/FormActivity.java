@@ -1,6 +1,7 @@
 package com.example.amirreza.menus;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +16,7 @@ public class FormActivity extends AppCompatActivity implements NameFragment.name
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
 
-
+        Context context;
         NameFragment nameFragment = new NameFragment();
         FamilyFragment familyFragment = new FamilyFragment();
         SubmitFragment submitFragment = new SubmitFragment();
